@@ -1,6 +1,6 @@
 <?php
 
-namespace modules\sample\Controllers;
+namespace bundles\sample\Controllers;
 
 /**
  *
@@ -15,7 +15,7 @@ class HomeController extends \Library\Core\Auth {
     public function indexAction()
     {
 
-        $this->oCrudModel = new \modules\backend\Models\Crud('Todo', 2, $this->oUser);
+        $this->oCrudModel = new \bundles\backend\Models\Crud('Todo', 2, $this->oUser);
         $oEntity         = $this->oCrudModel->getEntity();
         $aAttrs         = $oEntity->getAttributes();
         $sAttributeType = $oEntity->getAttributeType('idtodo');
