@@ -25,7 +25,7 @@ class HomeController extends \Library\Core\Auth
         $sMinifiedCssCode = '';
 
         $aSociableUxJsLibs = array(
-            '/lib/js/jquery-1.11.min.js',
+            '/lib/js/jquery-1.11.js',
             '/lib/plugins/layout/js/jquery.layout.min.js',
             '/lib/plugins/bootstrap3/js/bootstrap.js',
             '/lib/plugins/bootstrap-switch/js/bootstrap-switch.min.js',
