@@ -22,4 +22,4 @@ class HomeController extends \Library\Core\Auth
     }
 }
 
-?>
+
