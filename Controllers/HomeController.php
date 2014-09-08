@@ -18,7 +18,7 @@ class HomeController extends \Library\Core\Auth
 
     public function indexAction()
     {
-        $this->oView->render($this->aView, 'sample/index.tpl');
+        $this->oView->render($this->aView, 'home/index.tpl');
     }
 }
 
