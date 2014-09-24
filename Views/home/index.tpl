@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-10 column">
             <h1 class="showOnHover">
-                Sample bundle <small class="targetToShow">1.0</small>
+                {{sBundleName}} <small class="targetToShow">1.0</small>
             </h1>
             <br />
             <ul class="nav nav-pills transparentBlackBg rounded">

@@ -5,7 +5,7 @@ namespace bundles\sample\Models;
  *
  * @author info
  */
-class Sample
+class SampleModel
 {
     public function __construct()
     {
