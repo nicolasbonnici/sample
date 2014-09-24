@@ -39,7 +39,7 @@
                     <span class="glyphicon glyphicon-home"></span> <strong>Sample item</strong></a>
                 </li>
 
-                <li class="dropdown">
+                <li class="dropdown pull-right">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
                         <span class="glyphicon glyphicon-cog"></span> <strong>{{tr['bundle_settings']}} </strong> <span class="caret"></span>
                     </a>
