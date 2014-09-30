@@ -5,7 +5,7 @@
     "author": "Nicolas BONNICI",
     "vendor": "nicolasbonnici",
     "repository": "https://github.com/nicolasbonnici/sample",
-    "require": {
+    "require": [
         "error"
-    }
+    ]
 }
